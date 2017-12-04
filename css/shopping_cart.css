@@ -1,0 +1,12 @@
+
+
+#table-shopping-cart td:first-child{
+    width: 40%;
+}
+
+#table-shopping-cart td{
+    width: 10%;
+}
+#table-shopping-cart td#cell-product-count{
+    width: 20%;
+}

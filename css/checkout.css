@@ -1,0 +1,201 @@
+.logo {
+    height:50px;
+}
+
+.contentCheckout {
+
+}
+
+.cartForCheckout {
+
+}
+
+.steps-checkout {
+    list-style:none;
+    padding:0px;
+}
+
+.steps {
+    display:inline-flex;
+    flex-direction:row;
+    padding:15px 15px;
+
+}
+
+.active-check {
+    border-bottom:2px solid #00d64b;
+    font-weight:bold;
+}
+
+.steps a, .steps a:hover {
+    color:#2d2d2d;
+    text-decoration:none;
+}
+
+.list-checkout {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.cartForCheckout {
+    text-align:left;
+}
+.element-product {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:10px;
+}
+.thumb-product {
+    overflow:hidden;
+    border-radius:10px;
+}
+.thumb-product img {
+    height:80px;
+}
+
+.control-label {
+    color: #2a1014;
+    font-weight:normal;
+}
+
+.chkndo-input {
+    background: #f3f6f9;
+    border: 0;
+    border-bottom: 1px solid #ebeef1;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0!important;
+}
+
+.chkndo-input:focus, .chkndo-input:active {
+    background:#fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #00d64b!important;
+}
+
+.next-chk {
+    background:#00d64b;
+    border-radius:0px;
+    border:none;
+}
+
+.next-chk:hover {background:#27CB00;}
+
+
+.myAddon {
+    background: #f3f6f9;
+    border-radius: 0px;
+    border:none;
+}
+
+.active-credit-option {
+    background: #cecece;
+}
+
+.thumb-card-option {
+    height: 40px;
+}
+
+.md-checkbox {
+    position: relative;
+    height: 20px;
+    margin: 16px 0;
+}
+.md-checkbox label {
+    cursor: pointer;
+}
+.md-checkbox label:before, .md-checkbox label:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.md-checkbox label:before {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background .3s;
+}
+.md-checkbox input[type="radio"] {
+    outline: 0;
+    margin-right: 10px;
+}
+.md-checkbox input[type="radio"]:checked + label:before {
+    background: #00d64b;
+    border: none;
+}
+.md-checkbox input[type="radio"]:checked + label:after {
+    top: 5px;
+    left: 4px;
+    width: 12px;
+    height: 6px;
+    border-top-style: none;
+    border-right-style: none;
+}
+
+.icon-creditop {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+.condiciones-use {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #cecece;
+}
+
+.list-items-checkout {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.data-confirm-info {
+
+    background: #cecece;
+
+}
+
+.section-confirm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.divider {
+    width: 100%;
+    border: 1px solid #cecece;
+}
+
+.item-buy {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ul-forCheckoutItems {
+    display:flex;
+    flex-direction:column;
+}
+
+.countCheckout {
+    padding:5px 5px;
+    display:inline-flex;
+    justify-content:space-between;
+}
+
+.totalPrice {
+    font-size:20px;
+    color:#00d64b;
+}
